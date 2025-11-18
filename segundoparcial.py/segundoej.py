@@ -1,5 +1,4 @@
 # Ejercicio 2 - Grafos Star Wars
-# Estructuras del libro
 
 class nodoArista(object):
     def __init__(self, info, destino):
@@ -138,7 +137,6 @@ def buscar_vertice(grafo, buscado):
     return aux
 
 
-# kruskal del libro
 def kruskal(grafo):
     bosque = []
     aristas = Heap(grafo.tamanio ** 2)

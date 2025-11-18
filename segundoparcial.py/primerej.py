@@ -7,7 +7,7 @@ class nodoArbol(object):
         self.der = None
         self.info = info
         self.altura = 0
-        self.otro_dato = None  # Para guardar el pokemon completo
+        self.otro_dato = None
 
 
 def insertar_nodo(raiz, dato, pokemon=None):
