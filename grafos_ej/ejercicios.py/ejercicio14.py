@@ -5,8 +5,6 @@ from tda_pila import *
 def main():
     casa = Grafo(False)
 
-    print("=== EJERCICIO 14 - AMBIENTES DE CASA ===\n")
-
     # a. Cargar los ambientes como vertices
     print("a. Cargando ambientes de la casa...")
     ambientes = [
@@ -78,7 +76,6 @@ def main():
 
     print("Conexiones cargadas correctamente\n")
 
-    # Verificar que se cumplen las conexiones
     print("Verificando conexiones por ambiente:")
     aux = casa.inicio
     while aux is not None:
